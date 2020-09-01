@@ -11,6 +11,10 @@ import { FormsModule } from '@angular/forms';
 import { LogoutComponent } from './logout/logout.component';
 import { HttpInterceptorService } from './httpInterceptor.service';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { IngresantesComponent } from './ingresantes/ingresantes.component';
+import { AlumnosComponent } from './alumnos/alumnos.component';
+import { DocentesComponent } from './docentes/docentes.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
     HelloWorldComponent,
     MenuComponent,
     LoginComponent,
-    LogoutComponent
+    LogoutComponent,
+    IngresantesComponent,
+    AlumnosComponent,
+    DocentesComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
